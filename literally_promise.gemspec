@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = LiterallyPromise::VERSION
   spec.authors       = ["Stanley Stuart"]
   spec.email         = ["stanley@stan.li"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Literally a promise implementation (not really)}
+  spec.description = %q{Literally a promise implementation (not really)}
   spec.homepage      = ""
   spec.license       = "MIT"
 

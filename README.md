@@ -1,6 +1,6 @@
 # LiterallyPromise
 
-TODO: Write a gem description
+Stolen promise implementation from @tenderlove's talk at MWRC 2014.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'literally_promise'
+
+LiterallyPromise::Promise.new do
+  puts "omg"
+end
+```
 
 ## Contributing
 

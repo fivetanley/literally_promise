@@ -26,6 +26,29 @@ LiterallyPromise::Promise.new do
 end
 ```
 
+## Advanced Usage
+
+
+```ruby
+require 'literally_promise'
+
+my_promise = LiterallyPromise::Promise.new do
+  puts "omg it's starting"
+  sleep 10
+  2 * 2
+end
+```
+Check the status of a promise:
+
+``` ruby
+my_promise.alive? # Checks the to see if a promise is pending
+my_promise.stop?  # Checks the to see if a promise is fulfilled
+my_promise.status # Shows the status of a promise
+my_promise.raise  # halt a promise
+my_promise.value  # Check the return value of a promise
+my_promise.kill   # Break a promise. .terminate is an alias
+```
+
 ## Contributing
 
 1. Fork it ( http://github.com/fivetanley/literally_promise/fork )
